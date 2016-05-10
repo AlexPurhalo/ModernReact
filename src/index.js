@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import SearchBar from './components/search_bar';
 
+// Functional Base Component 
 const MainBox = () => {
     return <div>
         <SearchBar />

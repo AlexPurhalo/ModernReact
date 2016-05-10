@@ -1,24 +1,25 @@
-// STATE
 import React, { Component } from 'react';
 
+// Class Base Component
 class SearchBar extends Component {
-    // Before use state we should initialize a state
-    // because of constructor is just a word we need add an inheritance from main class via super keyword.
     constructor(props) {
-        super(props); // to call a current method of a current class. Here we call a parent method 
+        super(props);
 
-        this.state = { term: '' }; // here we give 'term' property default value. Here this is empty string ('').
+        // value can be anything, for example:
+        this.state = { term: '' };
+        // this.state = { term: 'some text' };
+        // this.state = { term: true };
+        // this.state = { term: 666 };
     }
     render() {
         return (
-            // this.setState sets a new value to 'term' property, value from 'event.target'
-            // 'this.state.term' shows actual value of 'term' property
+            // input now is 'control component'
             <div>
-                <input onChange={event => this.setState({ term: event.target.value })} />
-                Value from the input: {this.state.term}
+                <input
+                    onChange={event => this.setState({ term: event.target.value })}
+                    value={this.state.term} />
             </div>
         );
-        // ths.setState sets a new value of 'term' property
     }
 }
 export default SearchBar;
