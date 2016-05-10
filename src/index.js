@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 // Import of Components
 import SearchBar from './components/search_bar';
+import VideoList from './components/video_list';
 
 // Additional Configurations
 import YTSearch from 'youtube-api-search'; // npm install --save youtube-api-search
@@ -20,13 +21,14 @@ class App extends Component {
         YTSearch({ key: API_KEY, term: 'surfboards'}, (videos) => {
             // below our empty array is filling by objects from "videos" parameter. Example: videos: [ {...}, {...} ... ]
             this.setState({ videos }); // same as: "videos: videos", this is just refactoring
-
         });
     }
     render(){
         return(
+            // "videos={this.props.videos}" is just a property
             <div>
                 <SearchBar />
+                <VideoList videos={this.state.videos} />
             </div>
         );
     }
