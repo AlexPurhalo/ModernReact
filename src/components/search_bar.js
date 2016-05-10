@@ -1,18 +1,24 @@
-import React, { Component } from 'react'; // we need React because <input /> still is React.createElement
-// { Component } is like const Component = React.component
+// STATE
+import React, { Component } from 'react';
 
 class SearchBar extends Component {
-    // if we would pass thus.onInputChange to expression
-    // onInputChange(event) {
-    //     // event is something what passes when we represent some behavior for example: clicking on button
-    //     console.log(event.target.value)
-    // }
+    // Before use state we should initialize a state
+    // because of constructor is just a word we need add an inheritance from main class via super keyword.
+    constructor(props) {
+        super(props); // to call a current method of a current class. Here we call a parent method 
+
+        this.state = { term: '' }; // here we give 'term' property default value. Here this is empty string ('').
+    }
     render() {
-        // instead of 'this.onInputChange we gonna use ever = console.log(event.targer.value)
-        return <input onChange={event => console.log(event.target.value)}/>; // onChange sets as property
+        return (
+            // this.setState sets a new value to 'term' property, value from 'event.target'
+            // 'this.state.term' shows actual value of 'term' property
+            <div>
+                <input onChange={event => this.setState({ term: event.target.value })} />
+                Value from the input: {this.state.term}
+            </div>
+        );
+        // ths.setState sets a new value of 'term' property
     }
 }
-// '... extends React.Component ...'  allow to get all properties that React has
-// render is a function
-
-export default SearchBar; // To make valid a component in other files
+export default SearchBar;
