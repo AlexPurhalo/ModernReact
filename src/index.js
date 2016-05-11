@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 // Import of Components
 import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
+import VideoDetail from './components/video_detail';
 
 
 // Additional Configurations
@@ -17,18 +18,17 @@ class App extends Component {
     constructor(props){
         super(props);
 
-        this.state = { videos: [] }; // an empty array as value
+        this.state = { videos: [] };
 
         YTSearch({ key: API_KEY, term: 'bodybuilding'}, (videos) => {
-            // below our empty array is filling by objects from "videos" parameter. Example: videos: [ {...}, {...} ... ]
-            this.setState({ videos }); // same as: "videos: videos", this is just refactoring
+            this.setState({ videos });
         });
     }
     render(){
         return(
-            // "videos={this.props.videos}" is just a property
             <div>
                 <SearchBar />
+                <VideoDetail video={this.state.videos[0]}/>
                 <VideoList videos={this.state.videos} />
             </div>
         );
