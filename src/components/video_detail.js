@@ -1,7 +1,7 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
-  if (!video) { // if no video
+  if (!video) { // if no video, means if null
       return <div>Loading ...</div>;
   }
 
