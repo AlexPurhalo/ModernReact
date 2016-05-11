@@ -20,24 +20,19 @@ class App extends Component {
 
         this.state = {
             videos: [],
-            selectedVideo: null // will run: "<div>loading...</div>" while time when we still haven't gotten any data
+            selectedVideo: null 
         };
 
         YTSearch({ key: API_KEY, term: 'bodybuilding'}, (videos) => {
             this.setState({
                 videos: videos,
-                selectedVideo: videos[0] //after getting a data automatically shows a first video from array
+                selectedVideo: videos[0] 
             });
         });
     }
 
     render(){
         return(
-            // 'onVideoSelect' function will pass a callback from the App to Video list
-            // and from the VideoList to the VideoItem
-            // "selectedVideo => " is parameter (same as event from SearchBar)
-            // "function(selectedVideo) { this.setState({ selectedVideo: selectedVideo  }) };
-            // means that selectedVideo now equal to parameter from callback
             <div>
                 <SearchBar />
                 <VideoDetail video={this.state.selectedVideo}/>

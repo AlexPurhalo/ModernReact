@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="416d4779-263b-4b21-86e5-00f49a52b832" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/video_detail.js" afterPath="$PROJECT_DIR$/src/components/video_detail.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/search_bar.js" afterPath="$PROJECT_DIR$/src/components/search_bar.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/video_list.js" afterPath="$PROJECT_DIR$/src/components/video_list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/video_list_item.js" afterPath="$PROJECT_DIR$/src/components/video_list_item.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/style.css" afterPath="$PROJECT_DIR$/style/style.css" />
     </list>
     <ignored path="ReduxSimpleStarter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +39,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+            <state relative-caret-position="245">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="e#32#73#0" expanded="true" />
                 <element signature="e#133#181#0" expanded="true" />
@@ -48,18 +49,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_list_item.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video_list_item.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/video_list_item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
+            <state relative-caret-position="72">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding>
-                <marker date="1462953723468" expanded="true" signature="935:1329" placeholder="..." />
-                <marker date="1462953723468" expanded="true" signature="982:1315" placeholder="..." />
-                <marker date="1462953723468" expanded="true" signature="1027:1117" placeholder="..." />
-                <marker date="1462953723468" expanded="true" signature="1162:1296" placeholder="..." />
-                <marker date="1462953723468" expanded="true" signature="1214:1273" placeholder="..." />
+                <marker date="1462953982992" expanded="true" signature="272:666" placeholder="..." />
+                <marker date="1462953982992" expanded="true" signature="319:652" placeholder="..." />
+                <marker date="1462953982992" expanded="true" signature="364:454" placeholder="..." />
+                <marker date="1462953982992" expanded="true" signature="499:633" placeholder="..." />
+                <marker date="1462953982992" expanded="true" signature="551:610" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search_bar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/search_bar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,8 +98,8 @@
       <file leaf-file-name="video_list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/video_list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+            <state relative-caret-position="144">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -96,12 +117,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/app.js" />
         <option value="$PROJECT_DIR$/src/search_bar.js" />
-        <option value="$PROJECT_DIR$/src/components/search_bar.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/components/video_detail.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/video_list.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/video_list_item.js" />
+        <option value="$PROJECT_DIR$/style/style.css" />
+        <option value="$PROJECT_DIR$/src/components/search_bar.js" />
       </list>
     </option>
   </component>
@@ -156,6 +178,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ReduxSimpleStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReduxSimpleStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ReduxSimpleStarter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,12 +370,12 @@
       <updated>1462876842498</updated>
       <workItem from="1462876844456" duration="10440000" />
       <workItem from="1462894573126" duration="10721000" />
-      <workItem from="1462945033056" duration="5551000" />
+      <workItem from="1462945033056" duration="6069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26712000" />
+    <option name="totallyTimeSpent" value="27230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -396,11 +432,11 @@
         <state relative-caret-position="162">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
-            <marker date="1462953723468" expanded="true" signature="935:1329" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="982:1315" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1027:1117" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1162:1296" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1214:1273" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="272:666" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="319:652" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="364:454" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="499:633" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="551:610" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -437,11 +473,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1462953723468" expanded="true" signature="935:1329" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="982:1315" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1027:1117" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1162:1296" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1214:1273" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="272:666" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="319:652" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="364:454" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="499:633" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="551:610" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -486,18 +522,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/search_bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
+        <state relative-caret-position="245">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="e#32#73#0" expanded="true" />
             <element signature="e#133#181#0" expanded="true" />
@@ -507,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/video_list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
+        <state relative-caret-position="144">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -517,15 +545,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/video_list_item.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
+        <state relative-caret-position="72">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
-            <marker date="1462953723468" expanded="true" signature="935:1329" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="982:1315" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1027:1117" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1162:1296" placeholder="..." />
-            <marker date="1462953723468" expanded="true" signature="1214:1273" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="272:666" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="319:652" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="364:454" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="499:633" placeholder="..." />
+            <marker date="1462953982992" expanded="true" signature="551:610" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/search_bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
